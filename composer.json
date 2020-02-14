@@ -1,6 +1,6 @@
 {
 	"name": "yii2-navigationwidget",
-	"description": "Dynamic navigation YII2",
+	"description": "Dynamic navigation for YII2",
 	"type": "yii2-extension",
 	"keywords": [
 		"yii2",
@@ -24,11 +24,5 @@
 		"psr-4": {
 			"pozitronik\\widgets\\": "src"
 		}
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/pozitronik/yii2-navigationwidget"
-		}
-	]
+	}
 }
