@@ -28,7 +28,7 @@ php composer.phar require --prefer-dist pozitronik/yii2-navigationwidget "*"
 or add
 
 ```
-"pozitronik/yii2-badgewidget": "*"
+"pozitronik/yii2-navigationwidget": "*"
 ```
 
 to the require section of your `composer.json` file.
