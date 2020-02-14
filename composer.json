@@ -1,0 +1,29 @@
+{
+    "name": "yii2-navigationwidget",
+    "description": "Dynamic navigation YII2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","widget","navigation"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Pavel Dubrovsky",
+            "email": "antikillerxxl@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "pozitronik/yii2-helpers": "dev-master",
+        "pozitronik/yii2-cachedwidget": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "pozitronik\\widgets\\": "src"
+        }
+    },
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/pozitronik/yii2-navigationwidget"
+		}
+	]
+}
