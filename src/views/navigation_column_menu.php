@@ -6,7 +6,6 @@ declare(strict_types = 1);
  * @var array $items
  */
 
-use pozitronik\helpers\IconsHelper;
 use pozitronik\widgets\ColumnMenuWidgetAssets;
 use yii\bootstrap\ButtonDropdown;
 use yii\web\View;
@@ -19,8 +18,7 @@ ColumnMenuWidgetAssets::register($this);
 ?>
 
 <?= ButtonDropdown::widget([
-	'label' => IconsHelper::menu(),
-	'encodeLabel' => false,
+	'label' => "<i class='fa fa-bars'></i>",
 	'containerOptions' => [
 		'class' => 'dropdown'
 	],

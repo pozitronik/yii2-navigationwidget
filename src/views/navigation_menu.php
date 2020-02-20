@@ -6,14 +6,13 @@ declare(strict_types = 1);
  * @var array $items
  */
 
-use pozitronik\helpers\IconsHelper;
 use yii\bootstrap\ButtonDropdown;
 use yii\web\View;
 
 ?>
 
 <?= ButtonDropdown::widget([
-	'label' => IconsHelper::menu(),
+	'label' => "<i class='fa fa-bars'></i>",
 	'encodeLabel' => false,
 	'dropdown' => [
 		'options' => [
