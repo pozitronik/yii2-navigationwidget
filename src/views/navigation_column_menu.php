@@ -19,6 +19,7 @@ ColumnMenuWidgetAssets::register($this);
 
 <?= ButtonDropdown::widget([
 	'label' => "<i class='fa fa-bars'></i>",
+	'encodeLabel' => false,
 	'containerOptions' => [
 		'class' => 'dropdown'
 	],
