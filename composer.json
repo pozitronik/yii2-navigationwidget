@@ -28,10 +28,6 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "https://github.com/pozitronik/yii2-helpers"
-		},
-		{
-			"type": "vcs",
 			"url": "https://github.com/pozitronik/yii2-cachedwidget"
 		}
 	]
