@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Run
 
 ```
-php composer.phar require pozitronik/yii2-navigationvidget "dev-master"
+php composer.phar require pozitronik/yii2-navigationwidget "dev-master"
 ```
 
 or add
 
 ```
-"pozitronik/yii2-navigationvidget": "dev-master"
+"pozitronik/yii2-navigationwdget": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
