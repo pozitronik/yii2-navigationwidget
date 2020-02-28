@@ -7,33 +7,21 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-
-Add
-
-```
-{
-	"type": "vcs",
-	"url": "https://github.com/pozitronik/yii2-navigationwidget"
-} 
-```
-
-to the repositories section of your `composer.json` file.
-
-Either run
+Run
 
 ```
-php composer.phar require --prefer-dist pozitronik/yii2-navigationwidget "*"
+php composer.phar require pozitronik/yii2-navigationvidget "dev-master"
 ```
 
 or add
 
 ```
-"pozitronik/yii2-navigationwidget": "*"
+"pozitronik/yii2-navigationvidget": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
 
-
 Usage
 -----
-Not documented yet.
+
+Sorry, not documented yet (but you can rely to PHPDoc).
