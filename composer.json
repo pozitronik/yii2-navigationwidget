@@ -8,7 +8,7 @@
 		"widget",
 		"navigation"
 	],
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Pavel Dubrovsky",
@@ -17,18 +17,12 @@
 	],
 	"minimum-stability": "dev",
 	"require": {
-		"pozitronik/yii2-helpers": "@dev",
-		"pozitronik/yii2-cachedwidget": "@dev"
+		"pozitronik/yii2-helpers": "dev-master",
+		"pozitronik/yii2-cachedwidget": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
 			"pozitronik\\widgets\\": "src"
 		}
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/pozitronik/yii2-cachedwidget"
-		}
-	]
+	}
 }
