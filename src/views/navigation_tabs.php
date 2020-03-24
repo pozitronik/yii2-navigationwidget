@@ -15,7 +15,8 @@ use yii\web\View;
 
 <ul class="nav nav-tabs">
 	<?php foreach ($items as $item): ?>
-		<?= Html::tag('li', Html::a($item['label'], $item['url']), ArrayHelper::getValue($item, 'linkOptions', []) + ['class' => Utils::isSameUrlPath($item['url'])?'active':'inactive']) ?>
+		<?php $sameUrl = Utils::isSameUrlPath($item['url']); ?>
+		<?= Html::tag('li', $sameUrl?$item['label']:Html::a($item['label'], $item['url']), ArrayHelper::getValue($item, 'linkOptions', []) + ['class' => $sameUrl?'active':'inactive']) ?>
 	<?php endforeach; ?>
 </ul>
 
