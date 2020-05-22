@@ -28,7 +28,7 @@ class BaseNavigationMenuWidget extends CachedWidget {
 	/**
 	 * Функция инициализации и нормализации свойств виджета
 	 */
-	public function init() {
+	public function init():void {
 		parent::init();
 		BaseNavigationMenuWidgetAssets::register($this->getView());
 	}

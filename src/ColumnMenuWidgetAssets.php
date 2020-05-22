@@ -13,7 +13,7 @@ class ColumnMenuWidgetAssets extends AssetBundle {
 	/**
 	 * @inheritdoc
 	 */
-	public function init() {
+	public function init():void {
 		$this->sourcePath = __DIR__.'/assets';
 		$this->js = ['js/navigation_column_menu.js'];
 		$this->publishOptions = ['forceCopy' => YII_ENV_DEV];

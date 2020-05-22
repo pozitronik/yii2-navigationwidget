@@ -13,7 +13,7 @@ class BaseNavigationMenuWidgetAssets extends AssetBundle {
 	/**
 	 * @inheritdoc
 	 */
-	public function init() {
+	public function init():void {
 		$this->sourcePath = __DIR__.'/assets';
 		$this->css = ['css/navigation_menu.css'];
 		$this->js = ['js/navigation_menu.js'];
