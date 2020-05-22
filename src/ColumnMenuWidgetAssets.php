@@ -4,7 +4,6 @@ declare(strict_types = 1);
 namespace pozitronik\widgets;
 
 use yii\web\AssetBundle;
-use app\assets\AppAsset;
 
 /**
  * Class NavigationMenuWidgetAssets
