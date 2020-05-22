@@ -18,11 +18,12 @@
 	"minimum-stability": "dev",
 	"require": {
 		"pozitronik/yii2-helpers": "*",
-		"pozitronik/yii2-cachedwidget": "*"
+		"pozitronik/yii2-cachedwidget": "*",
+		"yiisoft/yii2-bootstrap": "~2.0.0"
 	},
 	"require-dev": {
-		"yiisoft/yii2": "dev-master",
-		"yiisoft/yii2-bootstrap": "~2.0.0"
+		"yiisoft/yii2": "dev-master"
+
 	},
 	"autoload": {
 		"psr-4": {
