@@ -17,7 +17,7 @@ class BaseNavigationMenuWidgetAssets extends AssetBundle {
 		$this->sourcePath = __DIR__.'/assets';
 		$this->css = ['css/navigation_menu.css'];
 		$this->js = ['js/navigation_menu.js'];
-		$this->publishOptions = ['forceCopy' => YII_ENV_DEV];
+//		$this->publishOptions = ['forceCopy' => YII_ENV_DEV];
 		parent::init();
 	}
 }
