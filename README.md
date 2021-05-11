@@ -2,6 +2,8 @@ NavigationWidget
 ===========================
 Dynamic navigation as menu/tabs/column menu
 
+**ABANDONED && DEPRECATED**
+
 Installation
 ------------
 
