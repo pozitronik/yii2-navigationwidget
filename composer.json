@@ -16,9 +16,10 @@
 		}
 	],
 	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
-		"pozitronik/yii2-helpers": "*",
-		"pozitronik/yii2-cachedwidget": "*",
+		"pozitronik/yii2-helpers": "dev-master",
+		"pozitronik/yii2-cachedwidget": "dev-master",
 		"yiisoft/yii2-bootstrap": "~2.0.0"
 	},
 	"require-dev": {
